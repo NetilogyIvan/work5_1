@@ -1,10 +1,11 @@
-public class Main {public static void main(String[] args) {
-    BonusService service = new BonusService();
+public class Main {
+    public static void main(String[] args) {
+        BonusService service = new BonusService();
 
-    long amount = 1000;
-    boolean registered = true;
-    long bonus = service.calculate(amount, registered);
+        long amount = 1000;
+        boolean registered = true;
+        long bonus = service.calculate(amount, registered);
 
-    System.out.println(bonus);
+        System.out.println(bonus);
     }
 }
