@@ -29,6 +29,7 @@ public class BonusServiceTest {
         Assertions.assertEquals(expected, actual);
     }
 
+    @Test
     public void shouldCalculateForNoRegisteredAndUnderLimit() {
         BonusService service = new BonusService();
 
